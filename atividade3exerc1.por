@@ -3,15 +3,14 @@ programa
 	
 	funcao inicio()
 	{
-		//variaveis
-
-		
-		//entradas
-		escreva("Olá Mundo")
-		
-		//processamento
-		
-		//saida
+		inteiro tamanhoLinha = 0
+	
+		escreva("digite o tamanaho da linha ")
+		leia(tamanhoLinha)
+		para (inteiro x = 1; x <= tamanhoLinha; x = x ++  ){
+				escreva("-")
+		}
+		escreva("\naFim de programa")
 		
 	}
 }
@@ -20,7 +19,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 128; 
+ * @POSICAO-CURSOR = 220; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

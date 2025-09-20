@@ -3,15 +3,11 @@ programa
 	
 	funcao inicio()
 	{
-		//variaveis
-
-		
-		//entradas
-		escreva("Olá Mundo")
-		
-		//processamento
-		
-		//saida
+		inteiro x = 1
+		enquanto ( x <=100){
+			escreva( x+ "vamo estudar\n")
+			x=x+10
+			}
 		
 	}
 }
@@ -20,7 +16,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 128; 
+ * @POSICAO-CURSOR = 99; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;

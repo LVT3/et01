@@ -3,16 +3,18 @@ programa
 	
 	funcao inicio()
 	{
-		//variaveis
+		cadeia senha = "123teste"
+		cadeia senhaUsuario = " "
 
-		
-		//entradas
-		escreva("Olá Mundo")
-		
-		//processamento
-		
-		//saida
-		
+		escreva("Usuario Digite a senha : ")
+		leia(senhaUsuario)
+
+		enquanto(senhaUsuario != senha){
+			escreva("Senha Invalida, tente novamente...\n ")
+			escreva("Usuario Digite a senha : ")
+			leia(senhaUsuario)
+			}
+			escreva("Fim de programa")
 	}
 }
 /* $$$ Portugol Studio $$$ 
@@ -20,7 +22,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 128; 
+ * @POSICAO-CURSOR = 181; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
